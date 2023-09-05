@@ -174,7 +174,7 @@ setuptools.setup(
     # ever), you must grep for '.whl' and change all corresponding wheel paths
     # (templates/*.j2 and wheel_utils.py).
     name='skypilot',
-    version=find_version('sky', '__init__.py'),
+    version='0.3.3',
     packages=setuptools.find_packages(),
     author='SkyPilot Team',
     license='Apache 2.0',
